@@ -13,7 +13,7 @@ with open('phobiusfortestafterdeletedrubbish.csv', 'r') as project_csv:
         tm = int(row['TM'])
         # here you can add any if condition in this case I'm searching for all the sequences that show
         # more than 4 transmembrane domains
-        if tm >= 4:
+        if tm in range(4, 9):
             # write a new CSV appending the data that is coming from that is coming back from the CSV.
             tm_morethan4tm.append({
                 'TM': row['TM'],
