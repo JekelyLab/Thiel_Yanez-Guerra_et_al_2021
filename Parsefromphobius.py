@@ -3,10 +3,10 @@ import csv
 # creating the list1
 tm_morethan4tm = []
 with open('phobiusfortestafterdeletedrubbish.csv', 'r') as project_csv:
-    # Delimiter can be changed according to what it is, in this case i have comma
-    # Whic is the default, phobius will produce a whitespace delimited file and then you can change it to
+    # Delimiter can be changed according to what it is, in this case i have whitesoace
+    # Which is the default, phobius will produce a whitespace delimited file, you can change the whitespace for
     # white space in this part
-    csv_dict_reader = csv.DictReader(project_csv, delimiter=',')
+    csv_dict_reader = csv.DictReader(project_csv, delimiter=' ')
 
     for row in csv_dict_reader:
         # the number of transmembrane domains should be above certain threshold
