@@ -1,3 +1,5 @@
+This python script was created on a Linux Ubuntu 18.04 operating syste using PyCharm community edition 
+
 Parse from phobius will allow parsing the sequences obtained by the analysis performed with phobius. 
 As it is now, the script will allow you to parse all the receptors that contain from 4 to 9 transmembrane domains. This value can be changed 
 by modifying the range in line 16.
