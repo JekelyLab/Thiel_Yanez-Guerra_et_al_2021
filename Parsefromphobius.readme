@@ -1,9 +1,7 @@
-Parse from phobius will allow to parse the sequences obtained by the analysis performed with phobius. 
+Parse from phobius will allow parsing the sequences obtained by the analysis performed with phobius. 
 As it is now, the script will allow you to parse all the receptors that contain from 4 to 9 transmembrane domains. This value can be changed 
 by modifying the range in line 16.
 
-The input needed for this script is an CSV file produced by phobius. 
-The output will be a list containig only the ID of the sequences that have between 4 to 9 transmembrane domains. 
-
-
+The input needed for this script is a CSV file produced by phobius. 
+The output will be a list containing only the ID of the sequences that have between 4 to 9 transmembrane domains. 
 
