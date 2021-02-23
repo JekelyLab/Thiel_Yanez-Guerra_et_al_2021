@@ -1,3 +1,11 @@
+#This python script was created on a Linux Ubuntu 18.04 operating syste using PyCharm community edition 
+#Parse from phobius will allow parsing the sequences obtained by the analysis performed with phobius. 
+#As it is now, the script will allow you to parse all the receptors that contain from 4 to 9 transmembrane domains. This value can be changed 
+#by modifying the range in line 24.
+#The input needed for this script is a CSV file produced by phobius. 
+#The output will be a list containing only the ID of the sequences that have between 4 to 9 transmembrane domains. 
+
+
 import csv
 
 # creating the list1
