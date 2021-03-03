@@ -1,4 +1,4 @@
-#This python script was created on a Linux Ubuntu 18.04 operating syste using PyCharm community edition 
+#This python script was created on a Linux Ubuntu 18.04 operating system using PyCharm community edition 
 #Parse from phobius will allow parsing the sequences obtained by the analysis performed with phobius. 
 #As it is now, the script will allow you to parse all the receptors that contain from 4 to 9 transmembrane domains. This value can be changed 
 #by modifying the range in line 24.
@@ -10,7 +10,7 @@ import csv
 
 # creating the list1
 tm_morethan4tm = []
-with open('phobiusfortestafterdeletedrubbish.csv', 'r') as project_csv:
+with open('PHOBIUSFILENAMEHERE.csv', 'r') as project_csv:
     # Delimiter can be changed according to what it is, in this case i have whitesoace
     # Which is the default, phobius will produce a whitespace delimited file, you can change the whitespace for
     # white space in this part
